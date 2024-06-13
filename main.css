@@ -1,0 +1,47 @@
+.nav-item a,
+.nav-item a:hover {
+    color: #fff;
+}
+
+.nav-item .nav-link.active {
+    color: #212529;
+    background-color: #fff;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 600px;
+}
+
+.tab-pane img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.nav-veiculo .btn.active {
+    background-color: #212529;
+    color: #fff;
+}
+
+#sobre,
+#fale-conosco {
+    background-color: #ccc;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
